@@ -25,7 +25,7 @@ public class JdbcMySqlMain {
 		}
 		System.out.println("----------------------------");
 		
-		stmt.executeUpdate("INSERT INTO NEWESTTABLE SELECT * FROM NEWTABLE");
+		stmt.executeUpdate("INSERT INTO NEWESTTABLE SELECT * FROM ");
 		ResultSet rs1=stmt.executeQuery("SELECT * FROM NEWESTTABLE");
 		while(rs1.next())
 		{
