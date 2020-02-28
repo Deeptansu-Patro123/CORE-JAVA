@@ -65,7 +65,7 @@ public class q4 {
 	{
 		HashMap<Date, String> map = new HashMap<>();
 		map.put(new Date(2, 1,1998), "Deeptansu");
-		map.put(new Date(2, 1,1999), "MEssi");
+		 map.put(new Date(2, 1,1999), "MEssi");
 		map.put(new Date(3, 1,1998), "RoNaldo");
 		
        	
@@ -74,7 +74,7 @@ public class q4 {
 			Date d = itr.next();
 			System.out.println(d);
 		}
-		 String s=map.get(new Date(3, 1,1998));
+		 String s=map.get(new Date(2, 1,1998));
 		 System.out.println("call : "+s);
 	
 		

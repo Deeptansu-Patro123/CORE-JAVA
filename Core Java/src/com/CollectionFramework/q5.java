@@ -23,7 +23,7 @@ class Employee
 	}
 	
 //	@Override
-    public int hashCode() {
+    public int hashCode() {	
         return 25;
     }
 }
