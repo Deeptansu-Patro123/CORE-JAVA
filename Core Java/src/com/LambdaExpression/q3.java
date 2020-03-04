@@ -14,7 +14,7 @@ public class q3 {
 		consumer.accept("Deeptansu");
 		
 		Predicate<String> predicate=(String s)-> !s.isEmpty();
-		System.out.println(predicate.test(""));
+		System.out.println(predicate.test("Messi"));
 		
 		Function<Integer,String> function=(Integer i)-> i>40?"PASS":"FAILED";
 		System.out.println(function.apply(5));

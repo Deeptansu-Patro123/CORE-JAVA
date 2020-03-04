@@ -10,7 +10,7 @@ public class q5 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<StringBuilder> ar=new ArrayList<StringBuilder>();
+		List<StringBuilder> ar=new ArrayList<StringBuilder>();
 		ar.add(new StringBuilder("DEEptansu"));
 		ar.add(new StringBuilder("Messi"));
 		Consumer<StringBuilder> consumer=(StringBuilder s1)->s.append(s1.charAt(0));
@@ -18,9 +18,9 @@ public class q5 {
 		System.out.println(s);
 	}
 	
-	public static void check(ArrayList<StringBuilder> ar,Consumer c) {
-		for(StringBuilder a:ar) {
-			c.accept(a);
+	public static void check(List<StringBuilder> ar,Consumer c) {
+		for(StringBuilder b:ar) {
+			c.accept(b);
 		}
 	}
 
